@@ -1,1 +1,1 @@
-# blog-crud-app
+# Simple Java Program
