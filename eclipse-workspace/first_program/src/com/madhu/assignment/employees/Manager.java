@@ -9,9 +9,6 @@ public class Manager extends Employee {
         this.role = "Manager"; // accessing protected field
     }
 
-    public String getDepartment() { return department; }
-    public void setDepartment(String department) { this.department = department; }
-
     @Override
     public void displayInfo() {
         super.displayInfo();

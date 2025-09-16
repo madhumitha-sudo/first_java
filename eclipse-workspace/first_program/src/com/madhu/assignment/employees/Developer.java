@@ -9,9 +9,6 @@ public class Developer extends Employee {
         this.role = "Developer"; // accessing protected field
     }
 
-    public String getProgrammingLanguage() { return programmingLanguage; }
-    public void setProgrammingLanguage(String programmingLanguage) { this.programmingLanguage = programmingLanguage; }
-
     @Override
     public void displayInfo() {
         super.displayInfo();
